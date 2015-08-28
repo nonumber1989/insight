@@ -1,0 +1,27 @@
+{
+  "id": "1000001",
+  "uid": "ahbei",
+  "name": "阿北",
+  "avatar": "http://img4.douban.com/icon/u1000001-28.jpg", //头像小图
+  "alt": "http://www.douban.com/people/ahbei/",
+  "created": "2006-01-09 21:12:47", //注册时间
+  "loc_id": "108288", //城市id
+  "loc_name": "北京", //所在地全称
+  "desc": " This is desc",
+  "basicInfo":{
+
+  },
+  "workInfo":{
+
+  },
+  "myBook":[],
+  "myBorrow":{
+    "borrowedFrom":[],
+    "borrowTo":[]
+  },
+  "myRead":{
+    "reading":[],
+    "read":[],
+    "wishList":[]
+  }
+}
