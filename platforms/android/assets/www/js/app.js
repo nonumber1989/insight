@@ -194,7 +194,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 }
             })
 
-            //for tabs
+            //for books for me tabs
             .state('insight.booksForMe', {
                 url: "/booksForMe",
                 abstract: true,
@@ -250,6 +250,37 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
+
+            //for books for borrow tabs
+            .state('insight.booksForBorrow', {
+                url: "/booksForBorrow",
+                abstract: true,
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/booksForBorrow/tabs.html",
+                        controller: 'BooksForBorrowController'
+                    }
+                }
+            })
+            .state('insight.booksForBorrow.borrowedFrom', {
+                url: "/borrowedFrom",
+                views: {
+                    'borrowedFromContent': {
+                        templateUrl: "templates/booksForBorrow/borrowedFrom.html",
+                        controller: 'BooksForBorrowController'
+                    }
+                }
+            })
+            .state('insight.booksForBorrow.borrowedTo', {
+                url: "/borrowedTo",
+                views: {
+                    'borrowedToContent': {
+                        templateUrl: "templates/booksForBorrow/borrowedTo.html",
+                        controller: 'BooksForBorrowController'
+                    }
+                }
+            })
+
             .state('insight.settings', {
                 url: "/account/settings",
                 views: {

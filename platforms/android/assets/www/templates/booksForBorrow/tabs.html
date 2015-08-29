@@ -1,22 +1,12 @@
 <ion-tabs class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
 
-    <ion-tab title="{{'reading' | translate}}" icon="ion-ios-book-outline" ui-sref="insight.booksForMe.onReading">
-        <ion-nav-view name="readingContent">
+    <ion-tab title="{{'borrowedTo' | translate}}" icon="ion-ios-book-outline" ui-sref="insight.booksForBorrow.borrowedTo">
+        <ion-nav-view name="borrowedToContent">
         </ion-nav-view>
     </ion-tab>
 
-    <ion-tab title="{{'read' | translate}}" icon="ion-ios-box-outline" ui-sref="insight.booksForMe.read">
-        <ion-nav-view name="readContent">
-        </ion-nav-view>
-    </ion-tab>
-
-    <ion-tab title="{{'wishList' | translate}}" icon="ion-ios-pricetag-outline" ui-sref="insight.booksForMe.wishList">
-        <ion-nav-view name="wishListContent">
-        </ion-nav-view>
-    </ion-tab>
-
-    <ion-tab title="{{'favorite' | translate}}" icon="ion-ios-heart-outline" ui-sref="insight.booksForMe.favorite">
-        <ion-nav-view name="favoriteContent">
+    <ion-tab title="{{'borrowedFrom' | translate}}" icon="ion-ios-box-outline" ui-sref="insight.booksForBorrow.borrowedFrom">
+        <ion-nav-view name="borrowedFromContent">
         </ion-nav-view>
     </ion-tab>
 

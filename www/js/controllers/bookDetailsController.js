@@ -2,11 +2,11 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal,Book) {
+insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal,DouBanBook) {
     $scope.rate = 3;
     $scope.max = 5;
     console.log($stateParams.id+"--the book id")
-    Book.get(function(result){
+    DouBanBook.get({isbn:'7505715666'},function(result){
         $scope.details = result;
     });
     $scope.getTags = function(tags){
