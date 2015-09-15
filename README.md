@@ -7,7 +7,7 @@ Insight is a mobile application project for book sharing and borrowing
 Insight is works with backend RESTful service [Reaper](https://github.com/nonumber1989/reaper)
 This project use ionic technology and support Android,IOS and other Mobile platform.
 
-## Build & development
+## Build &  Development
     git clone https://github.com/nonumber1989/insight
     npm install -g ionic 
     npm install -g cordova
