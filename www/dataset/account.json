@@ -1,27 +1,50 @@
 {
   "id": "1000001",
-  "uid": "ahbei",
-  "name": "阿北",
-  "avatar": "http://img4.douban.com/icon/u1000001-28.jpg", //头像小图
+  "name": "nonumber1989",
+  "uid": "steven",
   "alt": "http://www.douban.com/people/ahbei/",
-  "created": "2006-01-09 21:12:47", //注册时间
-  "loc_id": "108288", //城市id
-  "loc_name": "北京", //所在地全称
-  "desc": " This is desc",
-  "basicInfo":{
+  "avatar": "http://img4.douban.com/icon/u1000001-28.jpg",
+  "my_book": [
+    {
+      "id":11111
+    }
+  ],
+  "borrow_book": {
+    "borrowed_from": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
 
+    ],
+    "borrow_to": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ]
   },
-  "workInfo":{
-
-  },
-  "myBook":[],
-  "iBorrow":{
-    "borrowedFrom":[],
-    "borrowTo":[]
-  },
-  "iRead":{
-    "reading":[],
-    "read":[],
-    "wishList":[]
+  "read_book": {
+    "reading": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ],
+    "read": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ],
+    "wish_list": [
+      {
+        "book_id":11111
+      }
+    ]
   }
 }
