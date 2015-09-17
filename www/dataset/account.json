@@ -1,50 +1,151 @@
 {
-  "id": "1000001",
-  "name": "nonumber1989",
-  "uid": "steven",
-  "alt": "http://www.douban.com/people/ahbei/",
-  "avatar": "http://img4.douban.com/icon/u1000001-28.jpg",
-  "my_book": [
-    {
-      "id":11111
-    }
-  ],
-  "borrow_book": {
-    "borrowed_from": [
-      {
-        "book_id":11111,
-        "user_id":111,
-        "borrowed_date":"2014-01-02"
-      }
+    "loc_id": "108296",
+    "name": "nonumber1989",
+    "created": "2012-11-19 13:07:56",
+    "is_banned": false,
+    "is_suicide": false,
+    "loc_name": "上海",
+    "avatar": "http:\/\/img3.douban.com\/icon\/u66413679-3.jpg",
+    "signature": "here is seven up",
+    "uid": "nonumber1989",
+    "alt": "http:\/\/www.douban.com\/people\/nonumber1989\/",
+    "desc": "80的尾巴90的头，就这么来到世界，感觉早熟，却在很多时候愿意扮演一个长不大的孩子",
+    "type": "user",
+    "id": "66413679",
+    "large_avatar": "http:\/\/img3.douban.com\/icon\/up66413679-3.jpg",
+    "my_book": [
+        {
+            "id": 5366248
+        }
+    ],
+    "borrow_book": {
+        "borrowed_from": [
+            {
+                "id": 5366248,
+                "user_id": 111,
+                "borrowed_time": "2014-01-02 13:07:56"
+            }
 
-    ],
-    "borrow_to": [
-      {
-        "book_id":11111,
-        "user_id":111,
-        "borrowed_date":"2014-01-02"
-      }
-    ]
-  },
-  "read_book": {
-    "reading": [
-      {
-        "book_id":11111,
-        "user_id":111,
-        "borrowed_date":"2014-01-02"
-      }
-    ],
-    "read": [
-      {
-        "book_id":11111,
-        "user_id":111,
-        "borrowed_date":"2014-01-02"
-      }
-    ],
-    "wish_list": [
-      {
-        "book_id":11111
-      }
-    ]
-  }
+        ],
+        "borrow_to": [
+            {
+                "id": 10750155,
+                "user_id": 111,
+                "borrowed_time": "2014-01-02 13:07:56"
+            }
+        ]
+    },
+    "read_book": {
+        "reading": [
+            {
+                "id": 1041385,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            },
+            {
+                "id": 1041385,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            },
+            {
+                "id": 2567698,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            },
+            {
+                "id": 2567698,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            },
+            {
+                "id": 1041385,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            },
+            {
+                "id": 2567698,
+                "user_id": 111,
+                "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+                "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+                "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+                "title":"小王子",
+                "author":[
+                    "（法）圣埃克苏佩里"
+                ],
+                "translator":[
+                    "胡雨苏"
+                ],
+                "start_time": "2014-01-02 13:07:56"
+            }
+        ],
+        "read": [
+            {
+                "id": 5366248,
+                "user_id": 111,
+                "start_time": "2014-01-02 13:07:56",
+                "end-time":"2014-03-21 13:07:56"
+            }
+        ],
+        "wish_list": [
+            {
+                "id": 5366248
+            },
+            {
+                "id": 3025921
+            },
+            {
+                "id": 1135754
+            }
+        ]
+    }
 }

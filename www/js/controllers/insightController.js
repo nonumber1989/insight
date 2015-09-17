@@ -4,7 +4,7 @@
 
 var insight = angular.module('insight');
 
-insight.controller('InsightController', function ($scope, $ionicModal, $timeout, $localStorage, $translate, Language) {
+insight.controller('InsightController', function ($scope, $ionicModal, $timeout, $localStorage, $translate, Account,Language) {
         $scope.entries = [];
 
     $scope.$storage = $localStorage;
@@ -15,6 +15,9 @@ insight.controller('InsightController', function ($scope, $ionicModal, $timeout,
 
     })
 
+    Account.get(function(account){
+        $scope.account = account;
+    })
     $scope.changeLanguage = function (key) {
         $translate.use(key);
     };

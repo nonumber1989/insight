@@ -23,9 +23,9 @@
         <ion-content>
             <ion-list>
                 <ion-item nav-clear menu-close class="item-avatar" href="#/insight/bookRecommendations">
-                    <img src="img/ionic.png">
-                    <b><h2>Steven Xu</h2></b>
-                    <p>I love Books</p>
+                    <img ng-src="{{account.avatar}}">
+                    <b><h2>{{account.name}}</h2></b>
+                    <p>{{account.signature}}</p>
                 </ion-item>
 
                 <ion-item nav-clear menu-close class="item-icon-left" href="#/insight/bookRecommendations">

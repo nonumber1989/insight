@@ -32,6 +32,9 @@ insight
     .factory("Language", function($resource) {
         return $resource('dataset/languages/languages.json');
     })
+    .factory("Account", function($resource) {
+        return $resource('dataset/account.json');
+    })
     .factory('Camera', ['$q', function($q) {
 
         return {

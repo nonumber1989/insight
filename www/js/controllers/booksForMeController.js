@@ -2,7 +2,11 @@
  * Created by seven on 8/16/2015.
  */
 var insight = angular.module('insight');
-insight.controller('BooksForMeController', function ($scope, BookRecommendations, Tags) {
+insight.controller('BooksForMeController', function ($scope, BookRecommendations,Account, Tags) {
+
+    Account.get(function(account){
+        $scope.account = account;
+    })
 
     $scope.onTabSelected = function (tabName) {
         switch (tabName) {
