@@ -1,0 +1,50 @@
+{
+  "id": "1000001",
+  "name": "nonumber1989",
+  "uid": "steven",
+  "alt": "http://www.douban.com/people/ahbei/",
+  "avatar": "http://img4.douban.com/icon/u1000001-28.jpg",
+  "my_book": [
+    {
+      "id":11111
+    }
+  ],
+  "borrow_book": {
+    "borrowed_from": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+
+    ],
+    "borrow_to": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ]
+  },
+  "read_book": {
+    "reading": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ],
+    "read": [
+      {
+        "book_id":11111,
+        "user_id":111,
+        "borrowed_date":"2014-01-02"
+      }
+    ],
+    "wish_list": [
+      {
+        "book_id":11111
+      }
+    ]
+  }
+}
