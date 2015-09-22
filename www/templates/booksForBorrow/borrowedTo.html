@@ -1,5 +1,10 @@
 <ion-view view-title="{{'borrowedTo' | translate}}">
     <ion-content>
-        <h1>Borrowed To Page</h1>
+        <a class="item item-thumbnail-left" href="#/insight/book/1222" ng-repeat="book in account.borrow_book.borrow_to">
+            <img ng-src="{{book.image}}" alt="{{book.alt}}">
+            <h2><strong>{{book.title}}/{{book.author.join(',')}}/{{book.translator.join(',')}}</strong></h2>
+            <p>{{book.isbn10}}</p>
+            <p>{{book.borrowed_time | date}}</p>
+        </a>
     </ion-content>
 </ion-view>

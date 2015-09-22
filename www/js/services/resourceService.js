@@ -8,12 +8,6 @@ insight
     .factory("BookRecommendations", function($resource) {
         return $resource('dataset/bookRecommendations.json');
     })
-    .factory("GoogleBook", function($resource) {
-        return $resource('https://128.199.91.142:3000/googleBook/:isbn',{isbn:'@isbn'});
-    })
-    .factory("DouBanBook", function($resource) {
-        return $resource('https://api.douban.com/v2/book/isbn/:isbn',{isbn:'@isbn'});
-    })
     .factory("Book", function($resource) {
         return $resource('dataset/book.json');
     })
