@@ -5,6 +5,7 @@
   "settings": "Settings",
   "signIn": "SIGN IN",
   "signpU": "CREATE A NEW ACCOUNT",
+  "name": "Name",
   "email": "Email",
   "password": "Password",
   "confirm_password":"Confirm Password",

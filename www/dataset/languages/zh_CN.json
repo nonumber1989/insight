@@ -5,6 +5,7 @@
   "settings": "设置",
   "signIn": "登录",
   "signUp": "创建新帐户",
+  "name": "名称",
   "email": "电子邮箱",
   "password": "密码",
   "confirm_password":"确认密码",

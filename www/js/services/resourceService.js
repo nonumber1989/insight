@@ -20,8 +20,11 @@ insight
     .factory("Article", function($resource) {
         return $resource('https://128.199.91.142:3000/articles/55cef0949d9179700985c90d');
     })
+    //.factory("User", function($resource) {
+    //    return $resource('https://128.199.91.142:3000/user/login');
+    //})
     .factory("User", function($resource) {
-        return $resource('https://128.199.91.142:3000/user/login');
+        return $resource('http://127.0.0.1:3000/user');
     })
     .factory("Language", function($resource) {
         return $resource('dataset/languages/languages.json');

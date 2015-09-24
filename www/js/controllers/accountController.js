@@ -10,6 +10,12 @@ insight.controller('AccountController', function($scope,$localStorage,User) {
         User.save($scope.loginData,function(result){
             $localStorage.userToken= result;
         });
+    }
 
+    $scope.user = {};
+    $scope.signUp = function(){
+        User.save($scope.user,function(result){
+            $localStorage.user= result.data;
+        });
     }
 })
