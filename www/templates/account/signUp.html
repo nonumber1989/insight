@@ -1,0 +1,28 @@
+<ion-view view-title="CREATE A NEW ACCOUNT">
+    <ion-content>
+            <div class="list">
+                <label class="item item-input">
+                    <i class="icon ion-ios-person placeholder-icon"></i>
+                    <input type="text" ng-model="user.name" placeholder="{{'name' | translate}}">
+                </label>
+                <label class="item item-input">
+                    <i class="icon ion-email placeholder-icon"></i>
+                    <input type="email" ng-model="user.email" placeholder="{{'email' | translate}}">
+                </label>
+                <label class="item item-input">
+                    <i class="icon ion-locked placeholder-icon"></i>
+                    <input type="password" ng-model="user.password" placeholder="{{'password' | translate}}">
+                </label>
+                <label class="item item-input">
+                    <i class="icon ion-locked placeholder-icon"></i>
+                    <input type="password" ng-model="user.password" placeholder="{{'confirm_password' | translate}}">
+                </label>
+
+                <label class="item item-checkbox">
+                    <span class="checkbox"> <input type="checkbox"></span>
+                    Yes, I consent to the Privacy policy.
+                </label>
+            </div>
+            <a class="button button-block button-positive" ng-click="signUp()">{{ 'signUp' | translate }}</a>
+    </ion-content>
+</ion-view>

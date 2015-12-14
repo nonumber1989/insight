@@ -1,0 +1,41 @@
+<ion-view view-title="SETTINGS">
+    <ion-content>
+        <div class="list">
+
+            <div class="item item-divider">
+                iBook PUSH NOTIFICATIONS
+            </div>
+
+            <ion-toggle ng-repeat="item in settingsList"
+                        ng-model="item.checked"
+                        ng-checked="item.checked">
+                {{ item.text }}
+            </ion-toggle>
+
+            <div class="item item-divider">
+                REGIONAL SETTINGS
+            </div>
+
+
+            <a class="item" href="#/insight/region">
+                Region
+                    <span class="item-note">
+                     {{getLanguageText(account.language)}}
+                    </span>
+            </a>
+
+            <div class="item">
+                Distance Unit
+                    <span class="item-note">
+                      Kilometers
+                    </span>
+            </div>
+            <div class="item item-divider">
+                ABOUT THE APP
+            </div>
+            <div class="item">
+                License
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

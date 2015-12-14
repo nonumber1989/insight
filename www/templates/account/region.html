@@ -1,0 +1,15 @@
+<ion-view view-title="CHOOSE REGION">
+    <ion-content>
+        <div class="list">
+            <div class="item item-divider">
+                ASIA
+            </div>
+            <ion-radio ng-repeat="language in languages"
+                       ng-value="language.value"
+                       ng-change = "changeLanguage(account.language)"
+                       ng-model="account.language">
+                {{ language.text }}
+            </ion-radio>
+        </div>
+    </ion-content>
+</ion-view>

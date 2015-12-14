@@ -1,0 +1,48 @@
+{
+  "id":"1003078",
+  "isbn10":"7505715666",
+  "isbn13":"9787505715660",
+  "title":"小王子",
+  "originTitle":"",
+  "altTitle":"",
+  "subtitle":"",
+  "url":"http:\/\/api.douban.com\/v2\/book\/1003078",
+  "alt":"http:\/\/book.douban.com\/subject\/1003078\/",
+  "image":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg",
+  "images":{
+    "small":"http:\/\/img1.douban.com\/spic\/s1001902.jpg",
+    "large":"http:\/\/img1.douban.com\/lpic\/s1001902.jpg",
+    "medium":"http:\/\/img1.douban.com\/mpic\/s1001902.jpg"
+  },
+  "author":[
+    "（法）圣埃克苏佩里"
+  ],
+  "translator":[
+    "胡雨苏"
+  ],
+  "publisher":"中国友谊出版公司",
+  "publishDate":"2000-9-1",
+  "rating":{"max":10,"numRaters":9438,"average":"9.1","min":0},
+  "tags":[
+    {"count":2416,"name":"小王子"},
+    {"count":1914,"name":"童话"},
+    {"count":1185,"name":"圣埃克苏佩里"},
+    {"count":863,"name":"法国"},
+    {"count":647,"name":"经典"},
+    {"count":597,"name":"外国文学"},
+    {"count":495,"name":"感动"},
+    {"count":368,"name":"寓言"}
+  ],
+  "binding":"平装",
+  "price":"19.8",
+  "series": {
+    "id": "2065",
+    "title": "新史学&多元对话系列"
+  },
+  "pages":"111",
+  "author_intro":"陈列他的作品和遗物。",
+  "summary":"小王子驾到！大家好，我是小王子，生活在B612星球",
+  "catalog":"序言：法兰西玫瑰\n小王子\n圣埃克苏佩里年表\n",
+  "eBookUrl":"http://read.douban.com/ebook/1234567/(该字段只在存在对应电子书时提供)",
+  "eBookPrice": "12.00"
+}

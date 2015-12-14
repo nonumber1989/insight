@@ -1,0 +1,11 @@
+<ion-view view-title="{{'wishList' | translate}}">
+    <ion-content>
+        <a class="item item-thumbnail-left" href="#/insight/book/1222" ng-repeat="book in account.read_book.wish_list">
+            <img ng-src="{{book.image}}" alt="{{book.alt}}">
+            <h2><strong>{{book.title}}</strong></h2>
+            <p>Author:{{book.author.join(',')}}/Translator:{{book.translator.join(',')}}</p>
+            <p>Start Time:{{book.start_time | date}}</p>
+            <p>isbn10:{{book.isbn10}}</p>
+        </a>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,43 @@
+<ion-view view-title="{{ 'book' | translate }}">
+    <ion-content>
+
+        <!--<ion-infinite-scroll-->
+                <!--distance="2%"-->
+                <!--ng-if="moreDataCanBeLoaded()"-->
+                <!--on-infinite="loadMore()">-->
+        <!--</ion-infinite-scroll>-->
+                <div class="list">
+                    <label class="item item-input">
+                        <i class="icon ion-search placeholder-icon"></i>
+                        <input type="text" placeholder="Search">
+                    </label>
+                    <a class="item item-thumbnail-left" href="#">
+                        <img src="img/ionic.png">
+                        <h2>Pretty Hate Machine</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item item-thumbnail-left" href="#">
+                        <img src="img/ionic.png">
+                        <h2>Pretty Hate Machine</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item item-thumbnail-left" href="#">
+                        <img src="img/ionic.png">
+                        <h2>Pretty Hate Machine</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                    <a class="item item-thumbnail-left" href="#">
+                        <img src="img/ionic.png">
+                        <h2>Pretty Hate Machine</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                </div>
+    </ion-content>
+    <ion-footer-bar >
+        <div class="button-bar">
+            <button class="button icon-left ion-star button-positive" ng-click="test()">ISBN</button>
+            <button class="button icon-left ion-star" ng-click="showPopup()">作者</button>
+            <button class="button icon-left ion-star" ng-click="showActionSheet()">书名</button>
+        </div>
+    </ion-footer-bar>
+</ion-view>

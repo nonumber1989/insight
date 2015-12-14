@@ -1,0 +1,72 @@
+<ion-view view-title="{{ 'book' | translate }}">
+    <ion-content>
+        <div class="list">
+
+            <div class="item">
+                <h2>{{details.title}}<span ng-if="details.subtitle">   {{details.subtitle}}</span></h2>
+                <rating ng-model="rate" max="max" readonly="false"></rating>
+                <a href="{{details.images.medium}}">(2122211111 人评价)</a>
+            </div>
+
+            <div class="item item-body">
+                <div class="center">
+                    <img ng-src="{{details.images.medium}}">
+                </div>
+                <div>
+                    {{'authors' | translate}}:{{details.author.join(',')}}
+                </div>
+                <div>
+                    {{'translators' | translate}}:{{details.translator.join(",")}}
+                </div>
+                <div>
+                    {{'publishers' | translate}}:{{details.publisher}}
+                </div>
+                <div>
+                    {{'publishedDate' | translate}}:{{details.pubdate}}
+                </div>
+                <div>
+                    {{'pageNumbers' | translate}}:{{details.pages}}
+                </div>
+                <div>
+                    {{'isbn' | translate}}:{{details.isbn10 }}
+                </div>
+                <!--<div class="row">-->
+                <!--&lt;!&ndash;<div>{{details.summary}}</div>&ndash;&gt;-->
+                <!--<button class="button button-small button-positive" ng-repeat="tag in getTags(details.tags)"-->
+                <!--style="margin:5px">-->
+                <!--{{tag}}-->
+                <!--</button>-->
+                <!--</div>-->
+            </div>
+            <div class="item">
+                <button class="button button-small button-positive">
+                    想读
+                </button>
+                <button class="button button-small button-positive">
+                    想读
+                </button>
+                <button class="button button-small button-positive">
+                    想读
+                </button>
+                <span>评价:</span>
+                <rating ng-model="rate" max="max" readonly="false" class="rating-media"></rating>
+            </div>
+            <div class="item item-divider">
+                内容简介
+            </div>
+            <div class="item item-body">
+                <pre class="intro">
+                    {{details.summary}}
+                </pre>
+            </div>
+            <div class="item item-divider">
+                作者简介
+            </div>
+            <div class="item item-body">
+                <div class="intro">
+                    {{summary}}
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

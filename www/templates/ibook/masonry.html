@@ -1,0 +1,9 @@
+<ion-view view-title="{{ 'reminders' | translate }}">
+    <ion-content>
+        <div masonry>
+            <div class="masonry-brick" ng-repeat="brick in bricks">
+                <img ng-src="{{ brick.src }}" alt="A masonry brick">
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

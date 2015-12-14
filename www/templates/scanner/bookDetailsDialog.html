@@ -1,0 +1,56 @@
+    <ion-modal-view class="insight-modal">
+        <ion-header-bar>
+            <h1 class="title"><b>C++ primer</b></h1>
+            <div class="buttons">
+                <button class="button  button-icon icon ion-ios-close-empty" ng-click="closeModal()"></button>
+            </div>
+        </ion-header-bar>
+        <!--<div class="bar bar-subheader">-->
+            <!--<h3 class="title">Sub Header</h3>-->
+            <!--<div class="buttons">-->
+                <!--<button class="button  button-icon icon ion-ios-cloud-download-outline" ng-click="closeModal()"></button>-->
+            <!--</div>-->
+        <!--</div>-->
+        <ion-content>
+                <div class="list">
+                    <div class="item item-input-inset">
+                        <label class="item-input-wrapper">
+                            <input type="text" placeholder="ISBN Search">
+                        </label>
+                        <button class="button button-icon icon ion-ios-search">
+                        </button>
+                    </div>
+                    <label class="item item-input">
+                        <span class="input-label">书名</span>
+                        <input type="text">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">描述</span>
+                        <input type="password">
+                    </label>
+
+                    <div class="item item-divider">
+                        描述
+                    </div>
+                    <div class="item">
+                        <p><b>注释：</b>This is my book</p>
+                    </div>
+                    <div class="item item-divider">
+                        细节
+                    </div>
+                    <div class="item">
+                        100& good book
+                    </div>
+                    <div class="item">
+                        i like this book
+                    </div>
+                </div>
+        </ion-content>
+        <ion-footer-bar class="bar-balanced">
+            <div class="button-bar">
+                <button class="button button-icon icon ion-ios-color-filter-outline" ng-click="test()">添加到我读</button>
+                <button class="button button-icon icon ion-ios-calculator-outline" ng-click="showPopup()">推荐</button>
+                <button class="button button-icon icon ion-bag" ng-click="showActionSheet()">喜欢</button>
+            </div>
+        </ion-footer-bar>
+    </ion-modal-view>

@@ -1,0 +1,21 @@
+<ion-view view-title="{{ 'bookDetails' | translate }}">
+    <ion-content>
+        <div class="insight-image-wrap">
+            <!--<img ng-src="{{details.image}}" alt="Description" class="full-image"/>-->
+            <h1 class="title"><span>{{details.title}}</span></h1>
+            <button class="button button-icon icon ion-ios-information-outline wrap-button"
+                    ng-click="openModal()">
+                {{'information' | translate}}
+            </button>
+        </div>
+    </ion-content>
+
+    <ion-footer-bar class="bar-balanced">
+        <div class="button-bar">
+            <button class="button button-icon icon ion-ios-color-filter-outline" ng-click="test()">颜色</button>
+            <button class="button button-icon icon ion-ios-calculator-outline" ng-click="showPopup()">尺码</button>
+            <button class="button button-icon icon ion-bag" ng-click="showActionSheet()">添加到购物车</button>
+        </div>
+    </ion-footer-bar>
+
+</ion-view>

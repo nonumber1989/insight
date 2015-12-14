@@ -1,0 +1,10 @@
+<ion-view view-title="{{'label' | translate}}">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="label in labels">
+                <strong>{{label.title}}</strong>
+                <span class="badge badge-assertive">{{label.count}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
