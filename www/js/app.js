@@ -115,7 +115,11 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/books",
                 views: {
                     'menuContent': {
+<<<<<<< HEAD
                         templateUrl: "templates/ibook/books.html",
+=======
+                        templateUrl: "templates/iBook/books.html",
+>>>>>>> f83bf66fd505549d7f7046184b9f0b5e7b18b329
                         controller: 'BooksController'
                     }
                 }
@@ -125,7 +129,11 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/book/:id",
                 views: {
                     'menuContent': {
+<<<<<<< HEAD
                         templateUrl: "templates/ibook/book.html",
+=======
+                        templateUrl: "templates/iBook/book.html",
+>>>>>>> f83bf66fd505549d7f7046184b9f0b5e7b18b329
                         controller: 'BookDetailsController'
                     }
                 }
@@ -161,7 +169,11 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/bookRecommendations",
                 views: {
                     'menuContent': {
+<<<<<<< HEAD
                         templateUrl: "templates/ibook/bookRecommendations.html",
+=======
+                        templateUrl: "templates/iBook/bookRecommendations.html",
+>>>>>>> f83bf66fd505549d7f7046184b9f0b5e7b18b329
                         controller: 'BookRecommendationsController'
                     }
                 }

@@ -4,4 +4,9 @@
 node_modules/
 platforms/
 plugins/
+<<<<<<< HEAD
 www/lib/
+=======
+www/lib/
+/.bowerrc
+>>>>>>> f83bf66fd505549d7f7046184b9f0b5e7b18b329

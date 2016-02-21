@@ -15,7 +15,11 @@ insight.controller('InsightController', function ($scope, $ionicModal, $timeout,
 
     })
 
+<<<<<<< HEAD
         $scope.user = Account1Service.getAccount();
+=======
+        $scope.user = AccountService.getAccount();
+>>>>>>> f83bf66fd505549d7f7046184b9f0b5e7b18b329
 
     $scope.changeLanguage = function (key) {
         $translate.use(key);
