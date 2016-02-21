@@ -115,7 +115,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/books",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/iBook/books.html",
+                        templateUrl: "templates/ibook/books.html",
                         controller: 'BooksController'
                     }
                 }
@@ -125,7 +125,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/book/:id",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/iBook/book.html",
+                        templateUrl: "templates/ibook/book.html",
                         controller: 'BookDetailsController'
                     }
                 }
@@ -161,7 +161,7 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                 url: "/bookRecommendations",
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/iBook/bookRecommendations.html",
+                        templateUrl: "templates/ibook/bookRecommendations.html",
                         controller: 'BookRecommendationsController'
                     }
                 }
