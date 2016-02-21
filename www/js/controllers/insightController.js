@@ -4,7 +4,7 @@
 
 var insight = angular.module('insight');
 
-insight.controller('InsightController', function ($scope, $ionicModal, $timeout, $localStorage, $translate, Account1Service,Language) {
+insight.controller('InsightController', function ($scope, $ionicModal, $timeout, $localStorage, $translate, AccountService,Language) {
         $scope.entries = [];
 
     $scope.$storage = $localStorage;
