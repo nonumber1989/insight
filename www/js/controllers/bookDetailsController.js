@@ -2,13 +2,12 @@
  * Created by seven on 5/1/2015.
  */
 var insight = angular.module('insight');
-insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal,DouBanBook) {
+insight.controller('BookDetailsController', function($scope,$stateParams,$localStorage,$ionicActionSheet,$ionicPopup,$ionicModal) {
     $scope.rate = 3;
     $scope.max = 5;
     console.log($stateParams.id+"--the book id")
-    DouBanBook.get({isbn:'7505715666'},function(result){
-        $scope.details = result;
-    });
+
+        $scope.details = {};
     $scope.getTags = function(tags){
         var tagArray = [];
         angular.forEach(tags, function(value, key) {
@@ -43,7 +42,7 @@ insight.controller('BookDetailsController', function($scope,$stateParams,$localS
         $scope.data = {}
         // An elaborate, custom popup
         var myPopup = $ionicPopup.show({
-            templateUrl:'templates/iBook/detailPopup.html',
+            templateUrl:'templates/ibook/detailPopup.html',
             title: 'Enter Wi-Fi Password',
             subTitle: 'Please use normal things',
             scope: $scope,
@@ -80,7 +79,7 @@ insight.controller('BookDetailsController', function($scope,$stateParams,$localS
     }
 
 
-    $ionicModal.fromTemplateUrl('templates/iBook/detailDialog.html', {
+    $ionicModal.fromTemplateUrl('templates/ibook/detailDialog.html', {
         scope: $scope,
         animation: 'slide-in-up'
     }).then(function(modal) {

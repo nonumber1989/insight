@@ -6,36 +6,34 @@
  */
 
 var insight = angular.module('insight');
-insight.controller('BookScannerController', function ($scope, $rootScope, $ionicPlatform, $ionicModal,$cordovaBarcodeScanner, GoogleBook) {
-    $ionicPlatform.ready(function () {
-        $scope.scanBarcode = function () {
+insight.controller('BookScannerController', function($scope, $rootScope, $ionicPlatform, $ionicModal, $cordovaBarcodeScanner) {
+    $ionicPlatform.ready(function() {
+        $scope.scanBarcode = function() {
             $cordovaBarcodeScanner
                 .scan()
-                .then(function (barcodeData) {
+                .then(function(barcodeData) {
                     // Success! Barcode data is here
                     var theISBN = barcodeData.text;
                     alert("this is barcode text---" + theISBN);
                     if (theISBN && (theISBN.length == 13 || theISBN.length == 10)) {
-                        GoogleBook.get({isbn: barcodeData.text}, function (result) {
-                            alert("here is data from google---" + JSON.stringify(result.data.items));
-                        });
+                        alert("no an validate ISBN");
                     } else {
                         alert("no an validate ISBN");
                     }
                     console.log("Barcode Format -> " + barcodeData.format);
                     console.log("Cancelled -> " + barcodeData.cancelled);
-                }, function (error) {
+                }, function(error) {
                     // An error occurred
                     console.log("An error happened -> " + error);
                 });
         }
-        $scope.enCodeBarcode = function () {
+        $scope.enCodeBarcode = function() {
             // NOTE: encoding not functioning yet
             $cordovaBarcodeScanner
                 .encode(BarcodeScanner.Encode.TEXT_TYPE, "http://www.nonumber1989.com")
-                .then(function (success) {
+                .then(function(success) {
                     // Success!
-                }, function (error) {
+                }, function(error) {
                     // An error occurred
                 });
         }
