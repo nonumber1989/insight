@@ -4,7 +4,7 @@
 // 'insight' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'insight.controllers' is found in controllers.js
-angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pascalprecht.translate', 'angular-jwt','ionic.rating','wu.masonry'])
+angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pascalprecht.translate', 'angular-jwt','ionic.rating'])
 
     .run(function ($ionicPlatform, $rootScope, $ionicLoading, $state) {
         $ionicPlatform.ready(function () {
