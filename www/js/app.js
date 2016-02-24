@@ -157,6 +157,15 @@ angular.module('insight', ['ionic', 'ngCordova', 'ngResource', 'ngStorage', 'pas
                     }
                 }
             })
+            .state('insight.notification', {
+                url: "/notification",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/scanner/notification.html",
+                        controller: 'NotificationController'
+                    }
+                }
+            })
             .state('insight.bookRecommendations', {
                 url: "/bookRecommendations",
                 views: {
